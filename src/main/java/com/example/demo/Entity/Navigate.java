@@ -10,11 +10,11 @@ import lombok.Data;
 @Entity
 public class Navigate {
     @Id
-<<<<<<< HEAD
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-=======
+//<<<<<<< HEAD
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//=======
     @GeneratedValue(strategy = GenerationType.AUTO)
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
+//>>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
     private long id;
     private String topic;
 }

@@ -11,11 +11,11 @@ import lombok.Data;
 @Entity
 public class Teacher {
     @Id
-<<<<<<< HEAD
+//<<<<<<< HEAD
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-=======
-    @GeneratedValue(strategy = GenerationType.AUTO)
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
+//=======
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//>>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
     private int id;
     private String name;
 }

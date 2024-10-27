@@ -14,7 +14,7 @@ public class TopicServiceImp implements TopicService {
 
     @Override
     public List<Topic> getTopic(long id) {
-        return topicRepository.findByTopicId(id);
+        return topicRepository.findByTopicIdOrderByTeacherRatingDesc(id);
     }
 
     @Override
