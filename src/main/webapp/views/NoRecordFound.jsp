@@ -10,10 +10,7 @@
   <head>
     <title>NoRecordFound</title>
     <style>
-<<<<<<< HEAD
       /*<style>*/
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
       body {
         background-color: rgb(7, 7, 7);
         color: #e8e9ea;
@@ -47,7 +44,6 @@
       .search-button:hover {
         background-color: #e8e9ea;
       }
-<<<<<<< HEAD
       .container {
         display: block;
       }
@@ -151,21 +147,13 @@
   <%
     String userEmail = (String)request.getAttribute("userEmail");
   %>
-=======
-    </style>
-  </head>
-  <body>
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
   <h1>Learn With Us</h1>
 
   <!-- Search form that submits a search request -->
 
   <form action="search1" method="get">
     <div class="search-container">
-<<<<<<< HEAD
       <input name="userEmail" value="<%= userEmail %>" class="hide">
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
       <input type="text" class="search-input" placeholder="Search..." name="search">
       <button type="submit" class="search-button">Search</button>
     </div>

@@ -132,12 +132,9 @@
             text-decoration: none;
             color: #e8e9ea;
         }
-<<<<<<< HEAD
         .hide{
             display: none;
         }
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
 
     </style>
 </head>
@@ -145,10 +142,7 @@
 <%
     // Get allRecord attribute from the request
     List<Navigate> allData = (List<Navigate>) request.getAttribute("allRecord");
-<<<<<<< HEAD
     String userEmail = (String)request.getAttribute("email");
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
 %>
 <h1>Learn With Us</h1>
 
@@ -157,10 +151,7 @@
     <div class="search-container">
         <input type="text" class="search-input" placeholder="Search..." name="search">
         <button type="submit" class="search-button">Search</button>
-<<<<<<< HEAD
         <input name="userEmail" value="<%= userEmail %>" class="hide">
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
     </div>
 </form>
 
@@ -172,10 +163,7 @@
 <div class="container">
     <!-- Form that posts to the search endpoint -->
     <form action="search" method="post">
-<<<<<<< HEAD
         <input name="userEmail" value="<%= userEmail %>" class="hide">
-=======
->>>>>>> 3f0418a43198de13075de5d6ba9aceca54df320b
         <button id="item" class="hidden" value="<%=i.getId()%>" name="id">
             <%=i.getTopic()%>
         </button>
